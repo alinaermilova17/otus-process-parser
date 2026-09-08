@@ -45,8 +45,8 @@ def generate_report(processes):
     return report
 
 if __name__ == "__main__":
-    from step1_get_ps_data import get_ps_output
-    from step2_parse_process import parse_all_processes
+    from process_parser.step1_get_ps_data import get_ps_output
+    from process_parser.step2_parse_process import parse_all_processes
     
     output = get_ps_output()
     if output:

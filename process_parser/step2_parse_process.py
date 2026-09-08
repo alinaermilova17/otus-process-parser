@@ -35,7 +35,7 @@ def parse_all_processes(ps_output):
     return processes
 
 if __name__ == "__main__":
-    from step1_get_ps_data import get_ps_output
+    from process_parser.step1_get_ps_data import get_ps_output
     
     output = get_ps_output()
     if output:
